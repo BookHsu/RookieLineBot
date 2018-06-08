@@ -79,7 +79,7 @@ namespace LineBotRookie.Controllers
                             case SourceType.user:
                                 break;
                             case SourceType.group:
-                                if (LineEvent.source.groupId != "C0b89d56006a79e4cd6dfeecfb3f06dcd")
+                                if (LineEvent.source.groupId != "123")
                                 {
                                     ChannelObj.Leave(LineEvent.source.groupId, SourceType.group);
                                 }
